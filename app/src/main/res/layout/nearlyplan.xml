@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+    android:layout_width="1000dp"
+    android:layout_height="450dp"
+    android:id="@+id/ReportText"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="目前的投资方案有:\n基金:\n招商瑞庆灵活配置\n鹏扬景欣A\n前海开源沪港深价值精选灵活配置"
+    android:textSize="22dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/return_user2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="450dp"
+        android:onClick="onClick"
+        android:text="返回"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

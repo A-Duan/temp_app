@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.InvestmentAndFinancialAnalysisSystem.CompletePersonalInformation">
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="800dp"
+        android:id="@+id/CompletePersonalInformation_view"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstQuestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:text="1. 您现在的收入是属于高收入还是低收入或是中等收入？"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/Q1_S1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="60dp"
+            android:checked="false"
+            android:text="高收入"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q1_S2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:checked="false"
+            android:text="中等收入"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q1_S3"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="100dp"
+            android:checked="false"
+            android:text="低收入"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondQuestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="140dp"
+            android:background="#ffffff"
+            android:text="2. 如果您有一万块钱做投资，你是买股票还是基金还是存银行？"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/Q2_S1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="200dp"
+            android:checked="false"
+            android:text="买股票"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q2_S2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="220dp"
+            android:checked="false"
+            android:text="基金"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q2_S3"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="240dp"
+            android:checked="false"
+            android:text="存银行"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirdQuestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="280dp"
+            android:background="#ffffff"
+            android:text="3. 您之前进行过贷款吗？"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/Q3_S1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="310dp"
+            android:checked="false"
+            android:text="有"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q3_S2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="330dp"
+            android:checked="false"
+            android:text="没有"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fourthQuestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="370dp"
+            android:background="#ffffff"
+            android:text="4. 您对您现在的收入满意吗？"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+
+        <CheckBox
+            android:id="@+id/Q4_S1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="400dp"
+            android:checked="false"
+            android:text="满意"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q4_S2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="420dp"
+            android:checked="false"
+            android:text="还行"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q4_S3"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="440dp"
+            android:checked="false"
+            android:text="不满意"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fifthQuestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="480dp"
+            android:background="#ffffff"
+            android:text="5. 您现在有长期投资的打算吗？"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/Q5_S1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="510dp"
+            android:checked="false"
+            android:text="有"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/Q5_S2"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="530dp"
+            android:checked="false"
+            android:text="没有"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="590dp"
+            android:background="#00ffff"
+            android:onClick="onClick"
+            android:text="提交"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+

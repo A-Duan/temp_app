@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "投资分析理财系统"

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+    <!-- drawableLeft允许在text左侧放置图片
+         ems设置TextView或者Edittext的宽度为10个字符的宽度
+         layout_alignParentTop将控件的右边缘和父控件的右边缘对齐
+         -->
+
+    <EditText
+        android:id="@+id/set_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="0dp"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:inputType="textPersonName" />
+
+    <EditText
+    android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+    android:layout_width="fill_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginTop="300dp"
+    android:layout_height="60dp"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/set_pwd"
+    android:hint="请输入您的密码"
+    />
+
+    <Button
+        android:id="@+id/register_btn_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/register_btn_sure"
+        android:layout_alignStart="@+id/register_btn_sure"
+        android:layout_alignLeft="@+id/register_btn_sure"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="00dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:background="#f71818"
+        android:onClick="onClick"
+        android:text="取消"
+        android:textSize="20dp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="fill_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/resetpwd_edit_pwd_new"
+        android:layout_centerHorizontal="true"
+        android:hint="请确认您的密码"
+
+/>
+
+    <Button
+        android:id="@+id/register_btn_sure"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/resetpwd_edit_pwd_new"
+        android:layout_alignLeft="@+id/resetpwd_edit_pwd_new"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="100dp"
+        android:background="#1cf718"
+        android:onClick="onClick"
+        android:text="确定"
+        android:textSize="20dp"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>
